@@ -6,7 +6,7 @@ const CardHourlyWeather = ({ hourlyWeather, timezone }) => {
   return (
     <div className='
     flex flex-row 
-    max-h-1/4  m-2 lg:justify-around lg:items-center
+    max-h-1/4  m-2  md:justify-between lg:items-center
     overflow-auto
     bg-slate-600'>
       {hourlyWeather.length > 0 &&
